@@ -1,0 +1,57 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.services-header {
+    max-width: 790px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.services-description {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.services-link {
+    padding: 24px 0;
+}
+
+
+.services-widgets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-widget {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.service-widget-header {
+    padding: 24px;
+}
+
+.service-widget-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-widget-1, .service-widget-4 {
+    width: 790px;
+}
+
+.service-widget-2, .service-widget-3 {
+    width: 500px;
+}

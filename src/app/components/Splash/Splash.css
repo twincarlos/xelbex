@@ -1,0 +1,25 @@
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    max-width: 1100px;
+    text-align: center;
+    gap: 30px;
+}
+
+.splash-content h1 {
+    font-size: 80px;
+}
+
+.splash-content span {
+    max-width: 500px;
+}
