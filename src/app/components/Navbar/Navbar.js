@@ -17,7 +17,7 @@ export default function Navbar() {
                 <Link href={"/"}>Contact Us</Link>
             </div>
             <div className="nav-button-container">
-                <Link className="nav-button solid" href={""}>Get Template for Free</Link>
+                <Link className="nav-button solid secondary" href={""}>Get Template for Free</Link>
             </div>
         </header>
     );

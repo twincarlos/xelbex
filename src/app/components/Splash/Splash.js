@@ -7,7 +7,7 @@ export default function Splash() {
             <div className="splash-content">
                 <h1>Boost and Elevate Your Business with Xelbex</h1>
                 <span>Expert business consulting, advanced software development, and strategic marketing solutions for exceptional growth.</span>
-                <Link className="solid" href={"/"}>Services</Link>
+                <Link className="solid primary" href={"/"}>Services</Link>
             </div>
         </section>
     );
